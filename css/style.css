@@ -1,0 +1,82 @@
+/* variables */
+:root{
+    --colorheader: #A2D2FF;
+    --colorprimario: #FEF9EF;
+    --colorsecundario: #FF865E;
+    --colorterceario: #FEE440;
+
+    --fuentePricipal: 'Arimo', sans-serif;
+}
+/* globales */
+html{
+    font-size: 65.5;
+    box-sizing: border-box;
+}
+
+*
+*::before
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--colorprimario);
+    font-family: var(--fuentePricipal);
+}
+
+/* navegacion */
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+.navegador > a{
+    font-size: 1.8rem;
+}
+header{
+    background-color: var(--colorheader);
+    color: var(--colorprimario);
+    text-align: center;
+}
+a{
+    color: var(--colorprimario);
+    font-size: 2rem;
+    text-decoration: none;
+    display: block;
+    margin-top: 2rem;
+}
+a:hover{
+    color: var(--colorsecundario);
+}
+.header > a{
+    margin-top: 0;
+}
+@media (min-width: 1000px) {
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .navegador{
+        display: flex;
+        gap: 3rem;
+    }
+    header{
+        padding: 2rem;
+        z-index: 1;
+    }
+    h1{
+        font-size: 2.5rem;
+        text-align: center;
+        display: block;
+    }
+    a{
+        font-size: 2rem;
+        text-decoration: none;
+        margin: 0;
+    }
+    a:hover{
+        color: var(--colorsecundario);
+    }
+}

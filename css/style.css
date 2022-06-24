@@ -108,3 +108,213 @@ p{
         margin-top: 10rem;
     }
 }
+.grid-container{
+    display: block;
+    text-align: center;
+}
+.grid-container img{
+    width: 20rem;
+    height: 20rem;
+    transition: all .5s ease;
+}
+.grid-container img:hover{
+    /* visibility: hidden; */
+    opacity: .2;
+}
+.grid-container a{
+    color: #000;
+    background-color: var(--colorterceario);
+    border-radius: 1rem;
+    width: 15rem;
+    margin: 0 auto 3rem auto;
+    transition: all .5s ease;
+}
+.grid-container a:hover{
+    color: var(--colorsecundario);
+    transform: rotate(-5deg);
+}
+.ver-todo{
+    display: flex;
+    justify-content: center;
+}
+.ver-todo a{
+    color: #000;
+    border-radius: 1rem;
+    background-color: var(--colorsecundario);
+    padding: 0 1rem;
+}
+.sobre-mi{
+    padding: 0 3rem;
+    margin-top: 1rem;
+}
+.contenido_sm{
+    background-color: var(--colorterceario);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+h2{
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--colorsecundario);
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    display: block;
+}
+@media (min-width: 1000px) {
+    .sobre-mi{
+        padding: 0 3rem;
+        margin-top: 10rem;
+    }
+}
+
+
+/* seccion peluches */
+.grid-container{
+    display: block;
+    text-align: center;
+}
+.grid-container img{
+    width: 20rem;
+    height: 20rem;
+    transition: all .5s ease;
+}
+.grid-container img:hover{
+    /* visibility: hidden; */
+    opacity: .2;
+}
+.grid-container a{
+    color: #000;
+    background-color: var(--colorterceario);
+    border-radius: 1rem;
+    width: 15rem;
+    margin: 0 auto 3rem auto;
+    transition: all .5s ease;
+}
+.grid-container a:hover{
+    color: var(--colorsecundario);
+    transform: rotate(-5deg);
+}
+.ver-todo{
+    display: flex;
+    justify-content: center;
+}
+.ver-todo a{
+    color: #000;
+    border-radius: 1rem;
+    background-color: var(--colorsecundario);
+    padding: 0 1rem;
+}
+
+
+
+/* Medie queries de peluches */
+@media (min-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-container img{
+        margin: 0 auto;
+    }
+    .ver-todo{
+        justify-content: right;
+    }
+    .grid-container a:hover{
+        color: var(--colorsecundario);
+    }
+    .ver-todo{
+        display: flex;
+        justify-content: end;
+        margin-right: 3rem;
+    }
+}
+@media (min-width: 1100px) {
+    header{
+        position: fixed;
+        background-color: var(--colorheader);
+        width: 100%;
+        top: 0;
+    }
+    .sobre-mi{
+        margin-top: 15rem;
+    }
+    .grid-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* PAgina peluches */
+.main_peluches{
+    margin-top: 10rem;
+}
+.main_peluches  h1{
+    margin-bottom: 2rem;
+}
+
+
+/*pagina oso*/
+.peluche-venta {
+    text-align: center;
+}
+.aoso{
+    margin: 0 auto;
+    width: 15rem;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+    border-radius: 2rem;
+    background-color: #FF865E;
+}
+a:hover{
+    color: #000;
+}
+@media (min-width: 768px) {
+    .peluche-venta{     
+        display: flex;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .main-peluche{
+        margin-top: 10rem;
+    }
+    .peluche-venta > img{
+        width: 125%;
+        margin-left: 3rem;
+    }
+    .peluche-venta > div > p{
+        text-align: justify;
+        margin: 3rem;
+    }
+}
+/* formulario */
+.formulario > label{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    display: block;
+    margin: 1rem 0 1rem 3rem;
+    
+}
+.formulario >input{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--colorsecundario);
+}
+textarea{
+    width: 80%;
+    height: 15rem;
+    margin: auto 2rem;
+    border-radius: 1rem;
+    border-right: 2px solid ;
+    border-bottom: 2px solid ;
+}

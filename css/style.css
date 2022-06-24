@@ -80,3 +80,31 @@ a:hover{
         color: var(--colorsecundario);
     }
 }
+/* seccion sobre mi */
+.sobre-mi{
+    padding: 0 3rem;
+    margin-top: 1rem;
+}
+.contenido_sm{
+    background-color: var(--colorterceario);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+h2{
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--colorsecundario);
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    display: block;
+}
+@media (min-width: 1000px) {
+    .sobre-mi{
+        padding: 0 3rem;
+        margin-top: 10rem;
+    }
+}

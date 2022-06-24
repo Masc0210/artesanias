@@ -80,69 +80,8 @@ a:hover{
         color: var(--colorsecundario);
     }
 }
+
 /* seccion sobre mi */
-.sobre-mi{
-    padding: 0 3rem;
-    margin-top: 1rem;
-}
-.contenido_sm{
-    background-color: var(--colorterceario);
-    border-radius: 1rem;
-    padding: 1rem;
-}
-h2{
-    padding-bottom: 3rem;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--colorsecundario);
-}
-p{
-    text-align: center;
-    font-size: 1.5rem;
-    display: block;
-}
-@media (min-width: 1000px) {
-    .sobre-mi{
-        padding: 0 3rem;
-        margin-top: 10rem;
-    }
-}
-.grid-container{
-    display: block;
-    text-align: center;
-}
-.grid-container img{
-    width: 20rem;
-    height: 20rem;
-    transition: all .5s ease;
-}
-.grid-container img:hover{
-    /* visibility: hidden; */
-    opacity: .2;
-}
-.grid-container a{
-    color: #000;
-    background-color: var(--colorterceario);
-    border-radius: 1rem;
-    width: 15rem;
-    margin: 0 auto 3rem auto;
-    transition: all .5s ease;
-}
-.grid-container a:hover{
-    color: var(--colorsecundario);
-    transform: rotate(-5deg);
-}
-.ver-todo{
-    display: flex;
-    justify-content: center;
-}
-.ver-todo a{
-    color: #000;
-    border-radius: 1rem;
-    background-color: var(--colorsecundario);
-    padding: 0 1rem;
-}
 .sobre-mi{
     padding: 0 3rem;
     margin-top: 1rem;
